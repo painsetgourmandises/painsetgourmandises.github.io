@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=EB+Garamond:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Liu+Jian+Mao+Cao&family=Marcellus&family=Neucha&family=Poiret+One&display=swap');
+
+#contenu {
+  font-family: 'Neucha', serif;
+  display:inline-block;
+}
+
+#contenu a {
+  color:black;
+  text-decoration:none;
+}
+
+#contenu a:hover{
+  color:#ff5733;
+}
+
+#colleft {
+  height: 100%;
+}
+
+#logo {
+  padding-top:20px;
+  }
+
+#logo h1 a{
+  font-size:2vw;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+#logo p {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#colleft img{
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#colleft ul{
+  list-style: none;
+  padding-left:inherit;
+}
+
+#colleft li{
+  font-size:1.5vw;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+
+#contact{
+  margin-top:150px;
+}
+
+
+#contact p{
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size:1vw;
+}
+
+/* barnav xs */
+
+#barnav-xs{
+  background-color: white;
+  height:90px;
+}
+
+#logo-xs a{
+  float:left;
+  margin:25px;
+  font-size:7vw;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+svg{
+  position:fixed;
+  top:32px;
+  right:40px;
+  height:32px;
+  width:32px;
+}
+
+.menu-label,
+.menu-cb{
+  appearance:none;
+}
+
+
+.menu-nav ul{
+  list-style: none;
+  font-size: 5vw;
+  margin-bottom:30px;
+}
+
+.menu-nav{
+  display:none;
+  padding-top:110px;
+  background-color:white;
+  font-size:5vw;
+  padding-bottom: 10px;
+}
+.menu-nav li{
+    padding-left:10px;
+    padding-bottom:15px;
+}
+.menu-cb:checked ~ .menu-nav{
+  display:block;
+}
+
+.vide{
+  height: 100px;
+}
+
+
+/* photo en galery */
+
+.galery img {
+  padding-bottom:24px;
+}
+
+.galery-mozaique img{
+  width:24%;
+  padding:1%;
+}
+
+/* Presentation*/
+
+.titrepage h1{
+  padding-top:40px;
+  text-align: center;
+  font-size:4vw;
+}
+
+#textepresentation{
+  padding:20px;
+  background-color: white;
+  position:relative;
+  left:350px;
+  bottom:230px;
+  width:500px;
+}
+
+.exergue {
+  font-size:5vw;
+  padding-top:200px;
+}
+
+
+/* Pages */
+
+ .bandeautitre {
+   position:relative;
+   width: 100%;
+}
+
+.titre h1{
+  color:white;
+  font-size: 5vw;
+  position:absolute;
+  text-shadow: 1px 3px 2px black;
+  top:73%;
+  left:50%;
+
+}
+
+.bandeausoustitre{
+  position:relative;
+  margin-left:10%;
+  margin-top:50px;
+}
+.bandeausoustitre img{
+  width:50%;
+}
+
+.soustitre h2{
+position:absolute;
+font-size:6vw;
+text-shadow: 1px 3px 2px white;
+top:74%;
+left:42%;
+}
+
+.page h2{
+  font-size:4rem;
+  position:relative;
+  top:60%;
+}
+
+.intro {
+  margin-top:50px;
+  margin-bottom:5px;
+}
+.intro p {
+  font-size:1.3rem;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.texte h2 {
+  text-align: center;
+  font-size:3rem;
+  margin-top:60px;
+  margin-bottom:10px;
+}
+.texte h3 {
+  text-align: center;
+  font-size:2rem;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+.texte p {
+  text-align: center;
+  font-size:1.3rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img{
+  width:40%;
+  padding:1%;
+}
+
+.texteproduit {
+  padding-top:5%;
+  padding-left:10%;
+}
+.texteproduit h3{
+  text-align: left;
+  padding-top:3%;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-top:70px;
+  margin-bottom:10px;
+}
+
+/* checkbox produits */
+.description-cb {
+position:relative;
+}
+.description-cb p{
+  font-size:1.1rem;
+}
+
+.img-cb img{
+  width:35%;
+  position:relative;
+  left:5%;
+  margin-top:20px;
+  margin-bottom: 40px;
+}
+
+.pomme-label,
+.pomme-cb,
+.amandirepoire-label,
+.amandinepoire-cb,
+.citronmerengue-label,
+.citronmerengue-cb,
+.tartechocolat-label,
+.tartechocolat-cb,
+.foretnoire-label,
+.foretnoire-cb,
+.pavlova-cb,
+.pavlova-label,
+.royal-label,
+.royal-cb,
+.macarons-label,
+.macarons-cb,
+.opera-label,
+.opera-cb,
+.parisbrest-label,
+.parisbrest-cb,
+.financiers-label,
+.financiers-cb,
+.financiersframboiseromarin-label,
+.financiersframboiseromarin-cb,
+.cookiessarrasinnoisette-label,
+.cookiessarrasinnoisette-cb,
+.canneles-label,
+.canneles-cb{
+  appearance:none;
+}
+
+.descriptionpomme{
+  display:none;
+}
+.pomme-cb:checked ~ .descriptionpomme{
+  display:block;
+}
+
+.descriptionamandinepoire{
+  display:none;
+}
+.amandinepoire-cb:checked ~ .descriptionamandinepoire{
+  display:block;
+}
+
+.descriptioncitronmerengue{
+  display:none;
+}
+.citronmerengue-cb:checked ~ .descriptioncitronmerengue{
+  display:block;
+}
+
+.descriptiontartechocolat{
+  display:none;
+}
+.tartechocolat-cb:checked ~ .descriptiontartechocolat{
+  display:block;
+}
+
+.descriptionforetnoire{
+  display:none;
+}
+.foretnoire-cb:checked ~ .descriptionforetnoire{
+  display:block;
+}
+
+.descriptionpavlova{
+  display: none;
+}
+.pavlova-cb:checked ~ .descriptionpavlova{
+  display: block;
+}
+
+.descriptionroyal{
+  display:none;
+}
+.royal-cb:checked ~ .descriptionroyal{
+  display:block;
+}
+
+.descriptionmacarons{
+  display:none;
+}
+.macarons-cb:checked ~ .descriptionmacarons{
+  display:block;
+}
+
+.descriptionopera{
+  display:none;
+}
+.opera-cb:checked ~ .descriptionopera{
+  display:block;
+}
+
+.descriptionparisbrest{
+  display:none;
+}
+.parisbrest-cb:checked ~ .descriptionparisbrest{
+  display:block;
+}
+
+.descriptionfinanciers{
+  display:none;
+}
+.financiers-cb:checked ~ .descriptionfinanciers{
+  display:block;
+}
+
+.descriptionfinanciersframboiseromarin{
+  display:none;
+}
+.financiersframboiseromarin-cb:checked ~ .descriptionfinanciersframboiseromarin{
+  display:block;
+}
+
+.descriptioncookiessarrasinnoisette{
+  display:none;
+}
+.cookiessarrasinnoisette-cb:checked ~ .descriptioncookiessarrasinnoisette{
+  display:block;
+}
+
+.descriptioncanneles{
+  display:none;
+}
+.canneles-cb:checked ~ .descriptioncanneles{
+  display:block;
+}
